@@ -4,8 +4,8 @@
       "id": "1780951840736",
       "name": "Doc-vision",
       "ver": "V1.0",
-      "cat": "AutomatizaciÃ³n",
-      "desc": "**DocVision** transforma documentos fÃ­sicos en archivos digitales editables en segundos. Utiliza tecnologÃ­a OCR avanzada para reconocer texto, tablas y formatos, exportando resultados a Word y Excel con la mayor fidelidad posible. Ideal para empresas, estudiantes, oficinas y profesionales que necesitan digitalizar informaciÃ³n de forma rÃ¡pida y eficiente.",
+      "cat": "AutomatizaciÃÂ³n",
+      "desc": "**DocVision** transforma documentos fÃÂ­sicos en archivos digitales editables en segundos. Utiliza tecnologÃÂ­a OCR avanzada para reconocer texto, tablas y formatos, exportando resultados a Word y Excel con la mayor fidelidad posible. Ideal para empresas, estudiantes, oficinas y profesionales que necesitan digitalizar informaciÃÂ³n de forma rÃÂ¡pida y eficiente.",
       "tags": [
         "Python",
         "Tkinter",
@@ -21,114 +21,121 @@
     {
       "id": "1780953567207",
       "name": "rustdesk",
-      "icon": "ð§",
-      "desc": "El Software de Acceso Remoto y Soporte de CÃ³digo Abierto MÃ¡s RÃ¡pido\nCambie de TeamViewer, AnyDesk y Splashtop a RustDesk para una experiencia de escritorio remoto segura y confiable con sus propios servidores autoalojados.",
+      "icon": "Ã°ÂÂÂ§",
+      "desc": "El Software de Acceso Remoto y Soporte de CÃÂ³digo Abierto MÃÂ¡s RÃÂ¡pido\nCambie de TeamViewer, AnyDesk y Splashtop a RustDesk para una experiencia de escritorio remoto segura y confiable con sus propios servidores autoalojados.",
       "url": "https://rustdesk.com/es/"
     },
     {
       "id": "1781041295125",
       "name": "Excalidraw",
-      "icon": "âï¸",
-      "desc": "Pizarra digital para crear diagramas tÃ©cnicos, arquitecturas de software, flujos de negocio y\ndocumentaciÃ³n visual de manera rÃ¡pida.",
+      "icon": "Ã¢ÂÂÃ¯Â¸Â",
+      "desc": "Pizarra digital para crear diagramas tÃÂ©cnicos, arquitecturas de software, flujos de negocio y\ndocumentaciÃÂ³n visual de manera rÃÂ¡pida.",
       "url": "https://excalidraw.com/"
     },
     {
       "id": "1781041576287",
       "name": "N8N",
-      "icon": "â¡",
-      "desc": "Automatiza procesos empresariales conectando aplicaciones, bases de datos, APIs y servicios sin\nescribir grandes cantidades de cÃ³digo.",
+      "icon": "Ã¢ÂÂ¡",
+      "desc": "Automatiza procesos empresariales conectando aplicaciones, bases de datos, APIs y servicios sin\nescribir grandes cantidades de cÃÂ³digo.",
       "url": "https://n8n.io/"
     },
     {
       "id": "1781041751414",
       "name": "Hoppscotch",
-      "icon": "ð¡",
-      "desc": "Cliente API ultrarrÃ¡pido para probar servicios REST, GraphQL y WebSockets",
+      "icon": "Ã°ÂÂÂ¡",
+      "desc": "Cliente API ultrarrÃÂ¡pido para probar servicios REST, GraphQL y WebSockets",
       "url": "https://hoppscotch.io/"
     },
     {
       "id": "1781042123956",
       "name": "Penpot",
-      "icon": "ð¨",
-      "desc": "DiseÃ±o de interfaces colaborativo y open source ideal para equipos de desarrollo y diseÃ±o",
+      "icon": "Ã°ÂÂÂ¨",
+      "desc": "DiseÃÂ±o de interfaces colaborativo y open source ideal para equipos de desarrollo y diseÃÂ±o",
       "url": "https://penpot.app/"
     },
     {
       "id": "1781042239602",
       "name": "Coolify",
-      "icon": "âï¸",
+      "icon": "Ã¢ÂÂÃ¯Â¸Â",
       "desc": "Alternativa gratuita a Heroku y Vercel para desplegar aplicaciones en tu propio servidor.",
       "url": "https://coolify.io/"
     },
     {
       "id": "1781042384301",
       "name": "Metabase",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "desc": "Crea dashboards y reportes visuales conectando bases de datos sin conocimientos avanzados.",
       "url": "https://www.metabase.com/"
     },
     {
       "id": "1781042482447",
       "name": "Uptime Kuma",
-      "icon": "ð",
-      "desc": "Monitorea sitios web, servidores y APIs con alertas automÃ¡ticas.",
+      "icon": "Ã°ÂÂÂ",
+      "desc": "Monitorea sitios web, servidores y APIs con alertas automÃÂ¡ticas.",
       "url": "https://uptimekuma.org/"
     },
     {
       "id": "1781042545451",
       "name": "Flowise",
-      "icon": "ð§ ",
+      "icon": "Ã°ÂÂ§Â ",
       "desc": "Constructor visual de aplicaciones con IA y modelos de lenguaje",
       "url": "https://flowiseai.com/"
     },
     {
       "id": "1781042604957",
       "name": "Ollama",
-      "icon": "ð¤",
+      "icon": "Ã°ÂÂ¤Â",
       "desc": "Ejecuta modelos de inteligencia artificial localmente en tu computador.",
       "url": "https://ollama.com/"
     },
     {
       "id": "1781042711870",
       "name": "PocketBase",
-      "icon": "ðï¸",
-      "desc": "Backend ligero con autenticaciÃ³n, base de datos y almacenamiento integrado",
+      "icon": "Ã°ÂÂÂÃ¯Â¸Â",
+      "desc": "Backend ligero con autenticaciÃÂ³n, base de datos y almacenamiento integrado",
       "url": "https://pocketbase.io/"
     },
     {
       "id": "1781042785238",
       "name": "Plausible Analytics",
-      "icon": "ð",
-      "desc": "AnalÃ­tica web enfocada en privacidad y rendimiento",
+      "icon": "Ã°ÂÂÂ",
+      "desc": "AnalÃÂ­tica web enfocada en privacidad y rendimiento",
       "url": "https://plausible.io/"
     },
     {
       "id": "1781043123421",
       "name": "Draw.io",
-      "icon": "ð",
-      "desc": "Herramienta profesional para diagramas UML, bases de datos, procesos empresariales y\ndocumentaciÃ³n tÃ©cnica.",
+      "icon": "Ã°ÂÂÂ",
+      "desc": "Herramienta profesional para diagramas UML, bases de datos, procesos empresariales y\ndocumentaciÃÂ³n tÃÂ©cnica.",
       "url": "https://app.diagrams.net/"
     },
     {
       "id": "1781043244198",
       "name": "DBeaver",
-      "icon": "ðï¸",
-      "desc": "Administrador universal de bases de datos compatible con MySQL, PostgreSQL, SQLite, SQL\nServer y mÃ¡s.",
+      "icon": "Ã°ÂÂÂÃ¯Â¸Â",
+      "desc": "Administrador universal de bases de datos compatible con MySQL, PostgreSQL, SQLite, SQL\nServer y mÃÂ¡s.",
       "url": "https://dbeaver.io/"
     },
     {
       "id": "1781043328279",
       "name": "Appsmith",
-      "icon": "ð",
+      "icon": "Ã°ÂÂÂ",
       "desc": "Constructor de paneles administrativos y dashboards internos para empresas y desarrolladores",
       "url": "https://www.appsmith.com/"
     },
     {
       "id": "1781043619461",
       "name": "Awesome Self Hosted",
-      "icon": "ð§°",
-      "desc": "MÃ¡s de miles de aplicaciones open source organizadas por categorÃ­as:",
+      "icon": "Ã°ÂÂ§Â°",
+      "desc": "MÃÂ¡s de miles de aplicaciones open source organizadas por categorÃÂ­as:",
       "url": "https://github.com/awesome-selfhosted/awesome-selfhosted?utm_source=chatgpt.com"
+    },
+    {
+      "id": "1781366023290",
+      "name": "eeeeee",
+      "icon": "🔧",
+      "desc": "eeeeeeeee",
+      "url": "https://div-doctor.lovable.app"
     }
   ],
   "downloads": 56
