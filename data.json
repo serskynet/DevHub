@@ -1,5 +1,806 @@
 {
   "projects": [],
-  "tools": [],
+  "tools": [
+    {
+      "id": "seed-1",
+      "icon": "🖥️",
+      "cat": "Dev",
+      "name": "VS Code",
+      "desc": "El editor de código más usado del mundo. Extensiones para cualquier lenguaje.",
+      "url": "https://code.visualstudio.com"
+    },
+    {
+      "id": "seed-2",
+      "icon": "🐙",
+      "cat": "Dev",
+      "name": "GitHub",
+      "desc": "Aloja tu código, compártelo y colabora. Repositorios públicos sin costo.",
+      "url": "https://github.com"
+    },
+    {
+      "id": "seed-3",
+      "icon": "📊",
+      "cat": "Productividad",
+      "name": "LibreOffice",
+      "desc": "Suite completa de oficina, alternativa gratuita a Microsoft Office.",
+      "url": "https://www.libreoffice.org"
+    },
+    {
+      "id": "seed-4",
+      "icon": "🐍",
+      "cat": "Dev",
+      "name": "Python",
+      "desc": "Lenguaje ideal para automatizaciones, scripts y análisis de datos.",
+      "url": "https://www.python.org"
+    },
+    {
+      "id": "seed-5",
+      "icon": "🗜️",
+      "cat": "Productividad",
+      "name": "7-Zip",
+      "desc": "Compresor de archivos potente y ligero, sin publicidad.",
+      "url": "https://www.7-zip.org"
+    },
+    {
+      "id": "seed-6",
+      "icon": "🎨",
+      "cat": "Diseño",
+      "name": "Figma Free",
+      "desc": "Diseña interfaces y prototipos directamente en el navegador.",
+      "url": "https://www.figma.com"
+    },
+    {
+      "id": "seed-7",
+      "icon": "🛡️",
+      "cat": "Seguridad",
+      "name": "Bitwarden",
+      "desc": "Gestor de contraseñas open-source, seguro y multiplataforma.",
+      "url": "https://bitwarden.com"
+    },
+    {
+      "id": "seed-8",
+      "icon": "📡",
+      "cat": "Dev",
+      "name": "Postman",
+      "desc": "Prueba APIs y automatiza peticiones HTTP fácilmente.",
+      "url": "https://www.postman.com"
+    },
+    {
+      "id": "seed-9",
+      "icon": "🌐",
+      "cat": "Dev",
+      "name": "Replit",
+      "desc": "IDE en la nube para programar y compartir proyectos sin instalar nada.",
+      "url": "https://replit.com"
+    },
+    {
+      "id": "seed-10",
+      "icon": "⚡",
+      "cat": "Dev",
+      "name": "CodeSandbox",
+      "desc": "Entorno de desarrollo online para prototipos web rápidos.",
+      "url": "https://codesandbox.io"
+    },
+    {
+      "id": "seed-11",
+      "icon": "🗂️",
+      "cat": "Dev",
+      "name": "GitLab",
+      "desc": "Alternativa a GitHub con CI/CD integrado y repos privados gratis.",
+      "url": "https://gitlab.com"
+    },
+    {
+      "id": "seed-12",
+      "icon": "🐳",
+      "cat": "Dev",
+      "name": "Docker",
+      "desc": "Empaqueta aplicaciones en contenedores para que corran igual en cualquier lado.",
+      "url": "https://www.docker.com"
+    },
+    {
+      "id": "seed-13",
+      "icon": "🔥",
+      "cat": "Dev",
+      "name": "Firebase",
+      "desc": "Backend listo para apps: base de datos, auth y hosting de Google.",
+      "url": "https://firebase.google.com"
+    },
+    {
+      "id": "seed-14",
+      "icon": "🐘",
+      "cat": "Dev",
+      "name": "Supabase",
+      "desc": "Alternativa open-source a Firebase con base de datos PostgreSQL.",
+      "url": "https://supabase.com"
+    },
+    {
+      "id": "seed-15",
+      "icon": "▲",
+      "cat": "Dev",
+      "name": "Vercel",
+      "desc": "Hospeda sitios web y apps frontend gratis con despliegue automático.",
+      "url": "https://vercel.com"
+    },
+    {
+      "id": "seed-16",
+      "icon": "🟢",
+      "cat": "Dev",
+      "name": "Netlify",
+      "desc": "Hosting gratuito para sitios estáticos con formularios y funciones.",
+      "url": "https://www.netlify.com"
+    },
+    {
+      "id": "seed-17",
+      "icon": "🐧",
+      "cat": "Dev",
+      "name": "Railway",
+      "desc": "Despliega bases de datos y backends sin configurar servidores.",
+      "url": "https://railway.app"
+    },
+    {
+      "id": "seed-18",
+      "icon": "📦",
+      "cat": "Dev",
+      "name": "npm",
+      "desc": "El gestor de paquetes de JavaScript más usado del mundo.",
+      "url": "https://www.npmjs.com"
+    },
+    {
+      "id": "seed-19",
+      "icon": "🦀",
+      "cat": "Dev",
+      "name": "Rust",
+      "desc": "Lenguaje de programación rápido y seguro en memoria.",
+      "url": "https://www.rust-lang.org"
+    },
+    {
+      "id": "seed-20",
+      "icon": "☕",
+      "cat": "Dev",
+      "name": "OpenJDK",
+      "desc": "La implementación gratuita y oficial de Java.",
+      "url": "https://openjdk.org"
+    },
+    {
+      "id": "seed-21",
+      "icon": "🐘",
+      "cat": "Dev",
+      "name": "PHP",
+      "desc": "Lenguaje de servidor usado por WordPress y miles de sitios web.",
+      "url": "https://www.php.net"
+    },
+    {
+      "id": "seed-22",
+      "icon": "💎",
+      "cat": "Dev",
+      "name": "Ruby",
+      "desc": "Lenguaje elegante y productivo, base de Ruby on Rails.",
+      "url": "https://www.ruby-lang.org"
+    },
+    {
+      "id": "seed-23",
+      "icon": "🐹",
+      "cat": "Dev",
+      "name": "Go",
+      "desc": "Lenguaje de Google enfocado en simplicidad y rendimiento.",
+      "url": "https://go.dev"
+    },
+    {
+      "id": "seed-24",
+      "icon": "🌙",
+      "cat": "Dev",
+      "name": "Lua",
+      "desc": "Lenguaje ligero usado en videojuegos y scripts de automatización.",
+      "url": "https://www.lua.org"
+    },
+    {
+      "id": "seed-25",
+      "icon": "🔧",
+      "cat": "Dev",
+      "name": "Insomnia",
+      "desc": "Cliente de API alternativo a Postman, simple y rápido.",
+      "url": "https://insomnia.rest"
+    },
+    {
+      "id": "seed-26",
+      "icon": "🐬",
+      "cat": "Dev",
+      "name": "MySQL",
+      "desc": "El sistema de bases de datos relacional más popular del mundo.",
+      "url": "https://www.mysql.com"
+    },
+    {
+      "id": "seed-27",
+      "icon": "🐘",
+      "cat": "Dev",
+      "name": "PostgreSQL",
+      "desc": "Base de datos relacional avanzada, robusta y open-source.",
+      "url": "https://www.postgresql.org"
+    },
+    {
+      "id": "seed-28",
+      "icon": "🍃",
+      "cat": "Dev",
+      "name": "MongoDB",
+      "desc": "Base de datos NoSQL flexible para datos no estructurados.",
+      "url": "https://www.mongodb.com"
+    },
+    {
+      "id": "seed-29",
+      "icon": "📐",
+      "cat": "Dev",
+      "name": "DB Browser SQLite",
+      "desc": "Visualiza y edita bases de datos SQLite sin escribir código.",
+      "url": "https://sqlitebrowser.org"
+    },
+    {
+      "id": "seed-30",
+      "icon": "🧰",
+      "cat": "Dev",
+      "name": "DBeaver",
+      "desc": "Cliente universal para conectar y administrar cualquier base de datos.",
+      "url": "https://dbeaver.io"
+    },
+    {
+      "id": "seed-31",
+      "icon": "🔌",
+      "cat": "Dev",
+      "name": "XAMPP",
+      "desc": "Servidor local con Apache, MySQL y PHP listo para usar.",
+      "url": "https://www.apachefriends.org"
+    },
+    {
+      "id": "seed-32",
+      "icon": "🖧",
+      "cat": "Dev",
+      "name": "ngrok",
+      "desc": "Expón tu servidor local a internet con un túnel seguro.",
+      "url": "https://ngrok.com"
+    },
+    {
+      "id": "seed-33",
+      "icon": "📓",
+      "cat": "Dev",
+      "name": "Jupyter",
+      "desc": "Notebooks interactivos para programar y visualizar datos en Python.",
+      "url": "https://jupyter.org"
+    },
+    {
+      "id": "seed-34",
+      "icon": "🧪",
+      "cat": "Dev",
+      "name": "Google Colab",
+      "desc": "Ejecuta notebooks de Python en la nube, con GPU gratis.",
+      "url": "https://colab.research.google.com"
+    },
+    {
+      "id": "seed-35",
+      "icon": "🔍",
+      "cat": "Dev",
+      "name": "Regex101",
+      "desc": "Prueba y depura expresiones regulares con explicación en vivo.",
+      "url": "https://regex101.com"
+    },
+    {
+      "id": "seed-36",
+      "icon": "🧩",
+      "cat": "Dev",
+      "name": "JSON Crack",
+      "desc": "Visualiza estructuras JSON complejas como diagramas interactivos.",
+      "url": "https://jsoncrack.com"
+    },
+    {
+      "id": "seed-37",
+      "icon": "🧱",
+      "cat": "Dev",
+      "name": "Excalidraw",
+      "desc": "Pizarra digital para diagramas técnicos con estilo dibujado a mano.",
+      "url": "https://excalidraw.com"
+    },
+    {
+      "id": "seed-38",
+      "icon": "🗺️",
+      "cat": "Dev",
+      "name": "dbdiagram.io",
+      "desc": "Diseña diagramas de bases de datos escribiendo código simple.",
+      "url": "https://dbdiagram.io"
+    },
+    {
+      "id": "seed-39",
+      "icon": "🌍",
+      "cat": "Dev",
+      "name": "CyberChef",
+      "desc": "Navaja suiza para codificar, decodificar y transformar datos.",
+      "url": "https://gchq.github.io/CyberChef"
+    },
+    {
+      "id": "seed-40",
+      "icon": "📚",
+      "cat": "Dev",
+      "name": "DevDocs",
+      "desc": "Documentación de cientos de lenguajes y APIs en un solo buscador.",
+      "url": "https://devdocs.io"
+    },
+    {
+      "id": "seed-41",
+      "icon": "🧠",
+      "cat": "Dev",
+      "name": "Stack Overflow",
+      "desc": "La comunidad más grande para resolver dudas de programación.",
+      "url": "https://stackoverflow.com"
+    },
+    {
+      "id": "seed-42",
+      "icon": "🛰️",
+      "cat": "Dev",
+      "name": "Cloudflare",
+      "desc": "CDN, DNS y protección DDoS gratis para cualquier sitio web.",
+      "url": "https://www.cloudflare.com"
+    },
+    {
+      "id": "seed-43",
+      "icon": "🦊",
+      "cat": "Dev",
+      "name": "Termius",
+      "desc": "Cliente SSH multiplataforma para administrar servidores remotos.",
+      "url": "https://termius.com"
+    },
+    {
+      "id": "seed-44",
+      "icon": "🅿️",
+      "cat": "Diseño",
+      "name": "Canva",
+      "desc": "Editor gráfico para redes, presentaciones y diseños rápidos.",
+      "url": "https://www.canva.com"
+    },
+    {
+      "id": "seed-45",
+      "icon": "✏️",
+      "cat": "Diseño",
+      "name": "GIMP",
+      "desc": "Editor de imágenes profesional, alternativa gratuita a Photoshop.",
+      "url": "https://www.gimp.org"
+    },
+    {
+      "id": "seed-46",
+      "icon": "🖌️",
+      "cat": "Diseño",
+      "name": "Krita",
+      "desc": "Software de pintura digital y dibujo, ideal para ilustradores.",
+      "url": "https://krita.org"
+    },
+    {
+      "id": "seed-47",
+      "icon": "📐",
+      "cat": "Diseño",
+      "name": "Inkscape",
+      "desc": "Editor de gráficos vectoriales, alternativa libre a Illustrator.",
+      "url": "https://inkscape.org"
+    },
+    {
+      "id": "seed-48",
+      "icon": "🎬",
+      "cat": "Diseño",
+      "name": "DaVinci Resolve",
+      "desc": "Edición de video y color grading de nivel profesional, gratis.",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve"
+    },
+    {
+      "id": "seed-49",
+      "icon": "🎞️",
+      "cat": "Diseño",
+      "name": "Shotcut",
+      "desc": "Editor de video open-source, simple y multiplataforma.",
+      "url": "https://shotcut.org"
+    },
+    {
+      "id": "seed-50",
+      "icon": "🔷",
+      "cat": "Diseño",
+      "name": "Blender",
+      "desc": "Suite de modelado 3D, animación y renderizado totalmente gratis.",
+      "url": "https://www.blender.org"
+    },
+    {
+      "id": "seed-51",
+      "icon": "🌈",
+      "cat": "Diseño",
+      "name": "Coolors",
+      "desc": "Generador de paletas de colores armoniosas en segundos.",
+      "url": "https://coolors.co"
+    },
+    {
+      "id": "seed-52",
+      "icon": "🎨",
+      "cat": "Diseño",
+      "name": "Adobe Color",
+      "desc": "Crea y explora paletas de colores con la rueda cromática de Adobe.",
+      "url": "https://color.adobe.com"
+    },
+    {
+      "id": "seed-53",
+      "icon": "🖼️",
+      "cat": "Diseño",
+      "name": "Unsplash",
+      "desc": "Banco de fotos de altísima calidad, libres de derechos.",
+      "url": "https://unsplash.com"
+    },
+    {
+      "id": "seed-54",
+      "icon": "📷",
+      "cat": "Diseño",
+      "name": "Pexels",
+      "desc": "Fotos y videos gratuitos para uso comercial sin atribución.",
+      "url": "https://www.pexels.com"
+    },
+    {
+      "id": "seed-55",
+      "icon": "🧊",
+      "cat": "Diseño",
+      "name": "Pixabay",
+      "desc": "Imágenes, vectores e ilustraciones libres de derechos de autor.",
+      "url": "https://pixabay.com"
+    },
+    {
+      "id": "seed-56",
+      "icon": "🔤",
+      "cat": "Diseño",
+      "name": "Google Fonts",
+      "desc": "Cientos de tipografías gratuitas listas para usar en cualquier proyecto.",
+      "url": "https://fonts.google.com"
+    },
+    {
+      "id": "seed-57",
+      "icon": "✒️",
+      "cat": "Diseño",
+      "name": "Font Squirrel",
+      "desc": "Tipografías gratuitas verificadas para uso comercial.",
+      "url": "https://www.fontsquirrel.com"
+    },
+    {
+      "id": "seed-58",
+      "icon": "🪄",
+      "cat": "Diseño",
+      "name": "Remove.bg",
+      "desc": "Elimina el fondo de cualquier imagen automáticamente con IA.",
+      "url": "https://www.remove.bg"
+    },
+    {
+      "id": "seed-59",
+      "icon": "🔲",
+      "cat": "Diseño",
+      "name": "Squoosh",
+      "desc": "Comprime imágenes sin perder calidad, directo en el navegador.",
+      "url": "https://squoosh.app"
+    },
+    {
+      "id": "seed-60",
+      "icon": "🌀",
+      "cat": "Diseño",
+      "name": "Haikei",
+      "desc": "Generador de fondos SVG abstractos y formas orgánicas.",
+      "url": "https://haikei.app"
+    },
+    {
+      "id": "seed-61",
+      "icon": "🧊",
+      "cat": "Diseño",
+      "name": "Blobmaker",
+      "desc": "Crea formas orgánicas (blobs) en SVG para fondos y decoración.",
+      "url": "https://www.blobmaker.app"
+    },
+    {
+      "id": "seed-62",
+      "icon": "🎭",
+      "cat": "Diseño",
+      "name": "unDraw",
+      "desc": "Ilustraciones SVG gratuitas y personalizables por color.",
+      "url": "https://undraw.co"
+    },
+    {
+      "id": "seed-63",
+      "icon": "🧑‍🎨",
+      "cat": "Diseño",
+      "name": "Storyset",
+      "desc": "Ilustraciones animadas y editables para presentaciones y webs.",
+      "url": "https://storyset.com"
+    },
+    {
+      "id": "seed-64",
+      "icon": "🔠",
+      "cat": "Diseño",
+      "name": "Lucide Icons",
+      "desc": "Set de iconos minimalistas y consistentes, libres de uso.",
+      "url": "https://lucide.dev"
+    },
+    {
+      "id": "seed-65",
+      "icon": "🧷",
+      "cat": "Diseño",
+      "name": "Heroicons",
+      "desc": "Iconos SVG hechos por el equipo de Tailwind CSS, gratis.",
+      "url": "https://heroicons.com"
+    },
+    {
+      "id": "seed-66",
+      "icon": "🎯",
+      "cat": "Diseño",
+      "name": "Iconify",
+      "desc": "Más de 200,000 iconos de distintos sets en un solo buscador.",
+      "url": "https://iconify.design"
+    },
+    {
+      "id": "seed-67",
+      "icon": "🌗",
+      "cat": "Diseño",
+      "name": "ColorHunt",
+      "desc": "Paletas de colores curadas por la comunidad, listas para copiar.",
+      "url": "https://colorhunt.co"
+    },
+    {
+      "id": "seed-68",
+      "icon": "🪞",
+      "cat": "Diseño",
+      "name": "Mockuuups Studio",
+      "desc": "Mockups de dispositivos y escenas para mostrar tus diseños.",
+      "url": "https://mockuuups.studio"
+    },
+    {
+      "id": "seed-69",
+      "icon": "🖋️",
+      "cat": "Diseño",
+      "name": "Penpot",
+      "desc": "Alternativa open-source a Figma para diseño y prototipado.",
+      "url": "https://penpot.app"
+    },
+    {
+      "id": "seed-70",
+      "icon": "🔐",
+      "cat": "Seguridad",
+      "name": "KeePassXC",
+      "desc": "Gestor de contraseñas local y open-source, sin nube.",
+      "url": "https://keepassxc.org"
+    },
+    {
+      "id": "seed-71",
+      "icon": "🕵️",
+      "cat": "Seguridad",
+      "name": "Have I Been Pwned",
+      "desc": "Verifica si tu correo apareció en alguna filtración de datos.",
+      "url": "https://haveibeenpwned.com"
+    },
+    {
+      "id": "seed-72",
+      "icon": "🦠",
+      "cat": "Seguridad",
+      "name": "VirusTotal",
+      "desc": "Analiza archivos y enlaces con decenas de antivirus a la vez.",
+      "url": "https://www.virustotal.com"
+    },
+    {
+      "id": "seed-73",
+      "icon": "🧅",
+      "cat": "Seguridad",
+      "name": "Tor Browser",
+      "desc": "Navegador enfocado en privacidad y anonimato en la red.",
+      "url": "https://www.torproject.org"
+    },
+    {
+      "id": "seed-74",
+      "icon": "🛡️",
+      "cat": "Seguridad",
+      "name": "ClamAV",
+      "desc": "Antivirus open-source para detectar malware en archivos y correo.",
+      "url": "https://www.clamav.net"
+    },
+    {
+      "id": "seed-75",
+      "icon": "🔍",
+      "cat": "Seguridad",
+      "name": "Wireshark",
+      "desc": "Analiza el tráfico de tu red a nivel de paquetes, gratis.",
+      "url": "https://www.wireshark.org"
+    },
+    {
+      "id": "seed-76",
+      "icon": "🗝️",
+      "cat": "Seguridad",
+      "name": "VeraCrypt",
+      "desc": "Cifra carpetas y discos completos para proteger tu información.",
+      "url": "https://www.veracrypt.fr"
+    },
+    {
+      "id": "seed-77",
+      "icon": "🌫️",
+      "cat": "Seguridad",
+      "name": "ProtonVPN",
+      "desc": "VPN gratuita sin límite de datos, enfocada en privacidad.",
+      "url": "https://protonvpn.com"
+    },
+    {
+      "id": "seed-78",
+      "icon": "✉️",
+      "cat": "Seguridad",
+      "name": "ProtonMail",
+      "desc": "Correo cifrado de extremo a extremo, privado por diseño.",
+      "url": "https://proton.me/mail"
+    },
+    {
+      "id": "seed-79",
+      "icon": "🔑",
+      "cat": "Seguridad",
+      "name": "2FAS",
+      "desc": "App de autenticación en dos pasos, gratuita y de código abierto.",
+      "url": "https://2fas.com"
+    },
+    {
+      "id": "seed-80",
+      "icon": "🧱",
+      "cat": "Seguridad",
+      "name": "pfSense",
+      "desc": "Firewall y router open-source de nivel profesional, gratis.",
+      "url": "https://www.pfsense.org"
+    },
+    {
+      "id": "seed-81",
+      "icon": "🔬",
+      "cat": "Seguridad",
+      "name": "Nmap",
+      "desc": "Escáner de redes para auditorías de seguridad y mapeo de puertos.",
+      "url": "https://nmap.org"
+    },
+    {
+      "id": "seed-82",
+      "icon": "🧰",
+      "cat": "Seguridad",
+      "name": "OWASP ZAP",
+      "desc": "Herramienta líder para encontrar vulnerabilidades en aplicaciones web.",
+      "url": "https://www.zaproxy.org"
+    },
+    {
+      "id": "seed-83",
+      "icon": "🪪",
+      "cat": "Seguridad",
+      "name": "Aegis Authenticator",
+      "desc": "App Android de autenticación 2FA, libre y sin anuncios.",
+      "url": "https://getaegis.app"
+    },
+    {
+      "id": "seed-84",
+      "icon": "📝",
+      "cat": "Productividad",
+      "name": "Notion",
+      "desc": "Notas, bases de datos y wikis en una sola app flexible.",
+      "url": "https://www.notion.so"
+    },
+    {
+      "id": "seed-85",
+      "icon": "✅",
+      "cat": "Productividad",
+      "name": "Todoist",
+      "desc": "Gestor de tareas simple con recordatorios y proyectos.",
+      "url": "https://todoist.com"
+    },
+    {
+      "id": "seed-86",
+      "icon": "📋",
+      "cat": "Productividad",
+      "name": "Trello",
+      "desc": "Organiza proyectos con tableros estilo Kanban, fácil de usar.",
+      "url": "https://trello.com"
+    },
+    {
+      "id": "seed-87",
+      "icon": "🗒️",
+      "cat": "Productividad",
+      "name": "Obsidian",
+      "desc": "Notas en Markdown conectadas entre sí, guardadas localmente.",
+      "url": "https://obsidian.md"
+    },
+    {
+      "id": "seed-88",
+      "icon": "📅",
+      "cat": "Productividad",
+      "name": "Google Calendar",
+      "desc": "Calendario en la nube con recordatorios y eventos compartidos.",
+      "url": "https://calendar.google.com"
+    },
+    {
+      "id": "seed-89",
+      "icon": "⏱️",
+      "cat": "Productividad",
+      "name": "Toggl Track",
+      "desc": "Cronómetro para medir cuánto tiempo dedicas a cada tarea.",
+      "url": "https://toggl.com/track"
+    },
+    {
+      "id": "seed-90",
+      "icon": "🔁",
+      "cat": "Productividad",
+      "name": "Zapier",
+      "desc": "Conecta apps y automatiza tareas repetitivas sin programar.",
+      "url": "https://zapier.com"
+    },
+    {
+      "id": "seed-91",
+      "icon": "🤖",
+      "cat": "Productividad",
+      "name": "IFTTT",
+      "desc": "Automatizaciones simples entre apps con reglas \"si esto entonces aquello\".",
+      "url": "https://ifttt.com"
+    },
+    {
+      "id": "seed-92",
+      "icon": "📌",
+      "cat": "Productividad",
+      "name": "Google Keep",
+      "desc": "Notas rápidas y listas con recordatorios, sincronizadas en todos lados.",
+      "url": "https://keep.google.com"
+    },
+    {
+      "id": "seed-93",
+      "icon": "☁️",
+      "cat": "Productividad",
+      "name": "Google Drive",
+      "desc": "Almacenamiento en la nube con 15 GB gratis y documentos colaborativos.",
+      "url": "https://drive.google.com"
+    },
+    {
+      "id": "seed-94",
+      "icon": "📄",
+      "cat": "Productividad",
+      "name": "PDF24",
+      "desc": "Herramientas online para unir, comprimir y editar PDFs gratis.",
+      "url": "https://tools.pdf24.org"
+    },
+    {
+      "id": "seed-95",
+      "icon": "🧮",
+      "cat": "Productividad",
+      "name": "WPS Office",
+      "desc": "Suite de oficina ligera, compatible con archivos de Microsoft.",
+      "url": "https://www.wps.com"
+    },
+    {
+      "id": "seed-96",
+      "icon": "🗣️",
+      "cat": "Productividad",
+      "name": "Discord",
+      "desc": "Chat de voz y texto para comunidades, equipos y proyectos.",
+      "url": "https://discord.com"
+    },
+    {
+      "id": "seed-97",
+      "icon": "📞",
+      "cat": "Productividad",
+      "name": "Google Meet",
+      "desc": "Videollamadas gratuitas sin límite de tiempo para grupos pequeños.",
+      "url": "https://meet.google.com"
+    },
+    {
+      "id": "seed-98",
+      "icon": "🧠",
+      "cat": "Productividad",
+      "name": "Anki",
+      "desc": "Tarjetas de memoria con repetición espaciada para aprender rápido.",
+      "url": "https://apps.ankiweb.net"
+    },
+    {
+      "id": "seed-99",
+      "icon": "🔗",
+      "cat": "Productividad",
+      "name": "Linktree",
+      "desc": "Una sola página con todos tus enlaces importantes, gratis.",
+      "url": "https://linktr.ee"
+    },
+    {
+      "id": "seed-100",
+      "icon": "⏳",
+      "cat": "Productividad",
+      "name": "Pomofocus",
+      "desc": "Temporizador Pomodoro online para enfocarte sin distracciones.",
+      "url": "https://pomofocus.io"
+    }
+  ],
   "downloads": 54
 }
